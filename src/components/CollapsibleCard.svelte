@@ -27,7 +27,7 @@
 
 <div class='' class:open aria-expanded={open}>
 
-    <button type="button" class='card-header' on:click={handleToggle}>
+    <button type="button" class='card-header w-full' on:click={handleToggle}>
         <slot name='header'/>
     </button>
 
