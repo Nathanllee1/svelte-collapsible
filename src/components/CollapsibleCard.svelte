@@ -25,13 +25,13 @@
 
 </script> 
 
-<div class='card' class:open aria-expanded={open}>
+<div class='' class:open aria-expanded={open}>
 
     <button type="button" class='card-header' on:click={handleToggle}>
         <slot name='header'/>
     </button>
 
-    <div class='card-body' use:collapse={{open, duration, easing}}>
+    <div class='' use:collapse={{open, duration, easing}}>
         <slot name='body'/>
     </div>
 
